@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Fellows of Infinite Rest
+	</title>
+	<!--Style CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>F I R</h1>
+		<h6>Fellows of Infinite Rest</h6>
+		<h6>sniff around</h6>
+		<nav>
+			<a href="/floof/">FLOOF</a>
+			<a href="/sneak/">SNEAK</a>
+			<a href="/sleep/">SLEEP</a>
+		</nav>
+	</header>
+
+  
+  <section aria-label="Latest Additions" class="display">
+		<ul>
+			<li class="slide">
+				<img src="" alt="">
+			</li>
+		</ul>
+  </section>
+
+
+  <!--Below is a basic example of making images pop a little more-->
+	<!-- <div class="myProducts">
+		<div class="myProducts-gallery">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20211110154408/DSwithCPPWorkshopthumbnail.png"
+				alt="click here"
+				onclick="myImageFunction(this)">
+		</div>
+
+		<div class="image-container">
+			<img id="img-Box" src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20211110154408/DSwithCPPWorkshopthumbnail.png"
+				alt="click here">
+		</div>
+	</div> -->
+
+	<script>
+		function myImageFunction(productSmallImg) {
+			var productFullImg = document.getElementById("img-Box");
+			productFullImg.src = productSmallImg.src;
+		}
+	</script>
+</body>
+
+</html>
