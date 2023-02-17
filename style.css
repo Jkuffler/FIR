@@ -3,6 +3,7 @@
 
 *, *::before, *::after {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 * {
@@ -11,10 +12,11 @@
 }
 
 .carousel {
-	width: 100vw;
+	width: 90vw;
 	height: 100vh;
 	position: relative;
 }
+
 
 .slide {
 	position: absolute;
@@ -31,12 +33,13 @@
 }
 
 .slide > img {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	max-width: 80%;
 	max-height: 100%;
 	object-fit: contain;
-	border:rgba(35, 165, 126, 0.662)
+	margin-left: 4rem;
+	padding-left: 2rem;
 }
 
 .carousel-button {
@@ -71,7 +74,7 @@
 	right: 1rem;
 }
 
-.carousel > ul {
+.carousel > ul, li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
