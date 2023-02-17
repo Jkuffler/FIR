@@ -4,6 +4,7 @@
 *, *::before, *::after {
 	box-sizing: border-box;
 	margin: 0;
+	background-image: 'catground.png';
 }
 
 * {
@@ -12,6 +13,7 @@
 }
 
 .carousel {
+	margin-top: 2rem;
 	width: 90vw;
 	height: 100vh;
 	position: relative;
