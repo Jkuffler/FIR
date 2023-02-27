@@ -48,7 +48,7 @@
 	background: none;
 	border: none;
 	font-size: 4rem;
-	top: 50%;
+	/* top: 50%; */
 	z-index: 2;
 	transform: translateY(-50%);
 	color: rgba(68, 142, 83, 0.705);
