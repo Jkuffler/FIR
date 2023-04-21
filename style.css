@@ -1,14 +1,36 @@
 @import url(
 'https://fonts.googleapis.com/css2?family=Indie+Flower:wght@200;300;400;500;600;700&display=swap');
-
+/* 
 *, *::before, *::after {
 	box-sizing: border-box;
 	margin: 0;
-}
+} */
 
 * {
 	margin: 0;
 	font-family: 'Indie Flower', sans-serif;
+}
+
+nav {
+	flex-direction: column;
+}
+
+body {
+  background-color: #322417;
+  color: #A96E3B;
+  display: flex;
+	margin: 0;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url('catground.png');
+	background-repeat: repeat;
+	background-blend-mode: difference;
+}
+
+button {
+  background-color: #3c41406a;
+  display: flex;
+	justify-content: flex-end;
 }
 
 .carousel {
@@ -66,7 +88,7 @@
 }
 
 .carousel-button:focus {
-	outline: 1px solid black;
+	outline: 1px solid;
 }
 
 .carousel-button.prev {
@@ -80,16 +102,6 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-
-body {
-	margin: 0;
-  display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-image: url('catground.png');
-	background-repeat: repeat;
-	background-blend-mode: difference;
 }
 
 header {
